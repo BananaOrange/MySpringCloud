@@ -1,2 +1,2 @@
-# JavaNote
-Java八股文
+# MySpringCloud
+> 个人练习项目
