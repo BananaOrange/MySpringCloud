@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/cloud")
-public class MyController {
+@RequestMapping("/service-c")
+public class ServiceCController {
     @GetMapping("/hello")
-    public String Hello() {
+    public String hello(){
         return "Hello!";
     }
 
@@ -17,7 +17,7 @@ public class MyController {
     String serviceName;
 
     @GetMapping("/whoami")
-    public String WhoAmI() {
+    public String whoAmI(){
         return serviceName;
     }
 }
