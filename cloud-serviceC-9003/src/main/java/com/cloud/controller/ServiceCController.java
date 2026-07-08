@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServiceCController {
     @GetMapping("/hello")
     public String hello(){
-        return "Hello!";
+        return "Hello C!";
     }
 
     @Value("${spring.application.name}")
