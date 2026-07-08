@@ -22,6 +22,8 @@
 
 #### 网关
 ```
+<!-- 不要添加 spring-boot-starter-web 依赖 -->
+
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
